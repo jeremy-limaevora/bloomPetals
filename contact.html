@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inintial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>BloomPetals</title>
+</head>
+<header>
+    <br />
+    <nav>
+        <a id="home" href="index.html">Home</a>
+        <a id="home" href="entreprise.html">Entreprise</a>
+        <a id="home" href="realisations.html">Réalisations</a>
+        <a id="home" href="contact.html">Contact</a>
+        <input type="search" id="site-search"  />
+    </nav>
+</header>
+<body>
+    <div class="formulaire">
+        <h1>Contactez-nous</h1><br />
+        <form action="\page-traitement-données" method="post"></form>
+        <div><br />
+        <label for="civilite">Civilité</label>
+        <select name="civilite" id="civilite" required>
+        <option value="" disabled selected hidden>Sélectionnez votre civilité</option>
+        <option value="Mr">Monsieur</option>
+        <option value="Mme">Madame</option>
+        
+        </select>
+        </div><br />
+        <div>
+        <label for="nom">Nom Prenom</label>
+        <input type="text" id="nom" name="nom" placeholder="ex: Michel Dupont" required>
+        </div>
+        <div><br />
+        <label for="e-mail">E-mail</label>
+        <input type="email" id="email" name="e-mail" placeholder="ex: nomprenom@gmail.com">
+        </div>
+        <div><br />
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" placeholder="écrire ici*" required></textarea>
+        </div><br />
+        <input type="checkbox" id="politique" name="politique" required/>
+        <label for="politique">Validez les politiques de confidentialité de l'entreprise</label>
+        <div><br />
+        <button type="submit" id="envoyer">Envoyer</button>
+        </div>
+    </div>
+    <br /><br />
+</body>
+<footer>
+</footer>
+</html>

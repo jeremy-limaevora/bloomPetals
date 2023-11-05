@@ -1,0 +1,122 @@
+
+html {font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;}
+    #home {color: black;
+    text-decoration: none;}
+    header {
+        height: 80px;
+        margin: 0;
+        background:rgb(81, 81, 95);
+        font-size: 20px;
+    }
+    nav {
+        display: flex;
+        justify-content:space-evenly;
+    }
+    #site-search {
+        border-radius: 10px 10px 10px 10px;
+        background-color: rgb(255, 253, 253);
+        border-width: 0px;
+        width: 150px;
+    }
+    #logo-desc{
+        text-align: center;
+    }
+    #photo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #photo img{
+        width: 200px;
+    }
+    #service {
+        display: flex;
+        justify-content: space-between;
+        font-size: 25px;
+        text-align: center;
+    }
+    #photos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #photos img{
+        width: 200px;
+    }
+    footer {
+        height: 25px;
+        margin: 0;
+        background:rgb(67, 67, 78);
+    }
+    #photo_left {
+        float: right;
+    }
+    #photo_left img {
+        width: 20px;
+    }
+    #service {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        text-align: center;
+    }
+    #photos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #photos img{
+        width: 200px;
+    }
+    footer {
+        height: 90px;
+        margin: 0;
+        background:rgb(126, 126, 126);
+    }
+    #entreprise {
+        display: flex;
+        text-align: center;
+        font-size: 20px;
+    }
+        #photo_left {
+            float: right;
+        }
+        #photo_left img {
+            width: 170px;
+        }
+        .formulaire {
+            text-align: center;
+        }
+        #civilite {
+            border-radius: 10px 10px 10px 10px;
+            background-color: rgb(216, 216, 216);
+        }
+        #nom {
+            border-radius: 10px 10px 10px 10px;
+            background-color: rgb(216, 216, 216);
+            border-width: 0px;
+        }
+        #email {
+            border-radius: 10px 10px 10px 10px;
+            background-color: rgb(216, 216, 216);
+            border-width: 0px;
+            width: 220px;
+        }
+        #message {
+            display:flex;
+            border-radius: 10px 10px 10px 10px;
+            background-color: rgb(216, 216, 216);
+           
+            width: 300px;
+            height: 300px;
+        }
+        #envoyer {
+            border-radius: 10px 10px 10px 10px;
+            background-color:rgb(255, 98, 98);
+            width: 150px;
+            height: 100px;
+        }
